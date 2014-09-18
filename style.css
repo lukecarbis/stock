@@ -194,6 +194,12 @@ a img {
 	border-left: 1px solid #eee;
 }
 
+.entry-footer .comments-link,
+.entry-footer .edit-link {
+	float: right;
+	padding-left: 1em;
+}
+
 /*--------------------------------------------------------------
 3.0 Typography
 --------------------------------------------------------------*/
@@ -237,8 +243,27 @@ h2.site-description {
 	font-style: italic;
 }
 
+h1.entry-title {
+	font-size: 1.5em;
+}
+
+.entry-meta {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.entry-footer {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 1em;
+	font-size: 0.9em;
+}
+
 .main-navigation li {
-	font-size: 14px;
+	font-size: 0.9em;
+}
+
+.site-info {
+	font-size: 0.9em;
 }
 
 p {
@@ -692,6 +717,8 @@ a:active {
 .clear:after,
 .entry-content:before,
 .entry-content:after,
+.entry-footer:before,
+.entry-footer:after,
 .comment-content:before,
 .comment-content:after,
 .site-header:before,
@@ -706,6 +733,7 @@ a:active {
 
 .clear:after,
 .entry-content:after,
+.entry-footer:after,
 .comment-content:after,
 .site-header:after,
 .site-content:after,

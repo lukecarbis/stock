@@ -39,6 +39,13 @@ td {
 	border-right: 1px solid #eee;
 }
 
+.entry-footer .comments-link,
+.entry-footer .edit-link {
+	float: left;
+	padding-left: 0;
+	padding-right: 1em;
+}
+
 .main-navigation ul ul {
 	float: right;
 	text-align: right;
