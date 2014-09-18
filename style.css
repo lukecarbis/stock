@@ -790,6 +790,26 @@ a:active {
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
+	font-size: 0.9em;
+	border-bottom: 1px solid #eee;
+}
+
+.widget .widget-title {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #222;
+	font-weight: 600;
+	margin: 0 0 0.5em;
+}
+
+.widget ul {
+	list-style-type: none;
+	margin: 0 0 1em;
+}
+
+.widget a,
+.widget a:visited {
+	color: #404040;
 }
 
 /* Make sure select elements fit in widgets */
@@ -798,6 +818,9 @@ a:active {
 }
 
 /* Search widget */
+.widget_search .search-field {
+	margin-bottom: 1.5em;
+}
 .widget_search .search-submit {
 	display: none;
 }
