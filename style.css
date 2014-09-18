@@ -303,6 +303,8 @@ h2.site-description {
 	text-align: center;
 	font-weight: 300;
 	font-style: italic;
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
 }
 
 h1.entry-title {
@@ -840,6 +842,8 @@ a:active {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: #222;
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
 	font-weight: 600;
 	margin: 0 0 0.5em;
 }
