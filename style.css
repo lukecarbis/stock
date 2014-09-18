@@ -199,14 +199,10 @@ a img {
 }
 
 .entry-header.has-thumbnail .entry-title {
-	padding-top: 2em;
-	height: 12em;
-	width: 12em;
+	padding-top: 1em;
 	margin: 0 auto;
-}
-
-.entry-header.has-thumbnail .entry-title span {
-	padding: 0 0.5em;
+	height: 12em;
+	width: 16em;
 }
 
 .entry-header.has-thumbnail .entry-meta {
@@ -217,12 +213,9 @@ a img {
 .entry-header .entry-thumbnail {
 	position: absolute;
 	z-index: -1;
-	width: 24em;
+	width: 100%;
 	height: 24em;
 	top: 0;
-	left: 50%;
-	margin-left: -12em;
-	border-radius: 12em;
 	overflow: hidden;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -290,6 +283,7 @@ h1.entry-title {
 
 .entry-header.has-thumbnail .entry-title span {
 	background: #fff;
+	box-shadow: 0.2em 0 0 #fff, -0.2em 0 0 #fff, 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .entry-meta,
