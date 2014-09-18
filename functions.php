@@ -94,7 +94,7 @@ add_action( 'widgets_init', 'stock_widgets_init' );
 function stock_scripts() {
 	wp_enqueue_style( 'stock-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'lato', 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' );
+	wp_enqueue_style( 'stock-fonts', 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Crimson+Text:400,400italic,600,600italic' );
 
 	wp_enqueue_script( 'stock-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 

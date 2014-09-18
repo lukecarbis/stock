@@ -259,6 +259,7 @@ h1.site-title {
 	font-size: 1.5em;
 	padding: 1em 0 0 0;
 	letter-spacing: 0.1em;
+	font-family: 'Crimson Text', serif;
 }
 
 h1.site-title a:hover {
@@ -274,7 +275,8 @@ h2.site-description {
 h1.entry-title {
 	font-size: 2em;
 	text-align: center;
-	font-weight: 800;
+	font-weight: 600;
+	font-family: 'Crimson Text', serif;
 }
 
 .entry-header.has-thumbnail {
@@ -327,6 +329,9 @@ i {
 
 blockquote {
 	margin: 0 1.5em;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.5em;
+	font-style: italic;
 }
 
 address {
