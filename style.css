@@ -321,12 +321,16 @@ h1.entry-title {
 	box-shadow: 0.2em 0 0 #fff, -0.2em 0 0 #fff, 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.entry-meta,
-.entry-meta a,
-.entry-meta a:visited {
+.entry-meta {
 	font-size: 0.9em;
 	font-style: italic;
 	text-align: center;
+	color: #aaa;
+}
+
+.entry-meta,
+.entry-meta a,
+.entry-meta a:visited {
 	color: #aaa;
 }
 
