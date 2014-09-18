@@ -187,11 +187,46 @@ a img {
 
 #secondary {
 	float: right;
-	width: 19em;
+	width: 20em;
 	margin-right: -100%;
 	margin-left: 1em;
 	padding-left: 2em;
 	border-left: 1px solid #eee;
+}
+
+.entry-header.has-thumbnail {
+	position: relative;
+}
+
+.entry-header.has-thumbnail .entry-title {
+	padding-top: 2em;
+	height: 12em;
+	width: 12em;
+	margin: 0 auto;
+}
+
+.entry-header.has-thumbnail .entry-title span {
+	padding: 0 0.5em;
+}
+
+.entry-header.has-thumbnail .entry-meta {
+	margin-top: 1em;
+	margin-bottom: -1em
+}
+
+.entry-header .entry-thumbnail {
+	position: absolute;
+	z-index: -1;
+	width: 24em;
+	height: 24em;
+	top: 0;
+	left: 50%;
+	margin-left: -12em;
+	border-radius: 12em;
+	overflow: hidden;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .entry-footer .comments-link,
@@ -244,12 +279,26 @@ h2.site-description {
 }
 
 h1.entry-title {
-	font-size: 1.5em;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 800;
 }
 
-.entry-meta {
+.entry-header.has-thumbnail {
+	text-align: center;
+}
+
+.entry-header.has-thumbnail .entry-title span {
+	background: #fff;
+}
+
+.entry-meta,
+.entry-meta a,
+.entry-meta a:visited {
 	font-size: 0.9em;
 	font-style: italic;
+	text-align: center;
+	color: #aaa;
 }
 
 .entry-footer {
