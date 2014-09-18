@@ -252,6 +252,39 @@ h6 {
 	clear: both;
 }
 
+h1 {
+	font-size: 2em;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.5em;
+	font-family: 'Crimson Text', serif;
+}
+
+h5 {
+	font-size: 1.25em;
+	font-family: 'Crimson Text', serif;
+}
+
+h6 {
+	font-size: 1em;
+	font-family: 'Crimson Text', serif;
+}
+
 h1.site-title {
 	text-align: center;
 	text-transform: uppercase;
