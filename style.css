@@ -1,14 +1,14 @@
 /*
 Theme Name: Stock
-Theme URI: http://underscores.me/
+Theme URI: http://carb.is
 Author: Luke Carbis
 Author URI: http://carb.is
 Description: Minimalism & Precision
-Version: 1.0-wpcom
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: stock
-Tags:
+Tags: black, white, two-columns, responsive-layout, custom-menu, custom-header, full-width-template, post-formats, rtl-language-support
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -25,24 +25,25 @@ and Blueprint http://www.blueprintcss.org/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 Reset
-2.0 Typography
-3.0 Elements
-4.0 Forms
-5.0 Navigation
-	5.1 Links
-	5.2 Menus
-6.0 Accessibility
-7.0 Alignments
-8.0 Clearings
-9.0 Widgets
-10.0 Content
-	10.1 Posts and pages
-	10.2 Asides
-	10.3 Comments
-11.0 Infinite scroll
-12.0 Media
-	12.1 Captions
-	12.2 Galleries
+2.0 Layout
+3.0 Typography
+4.0 Elements
+5.0 Forms
+6.0 Navigation
+	6.1 Links
+	6.2 Menus
+7.0 Accessibility
+8.0 Alignments
+9.0 Clearings
+10.0 Widgets
+11.0 Content
+	11.1 Posts and pages
+	11.2 Asides
+	11.3 Comments
+12.0 Infinite scroll
+13.0 Media
+	13.1 Captions
+	13.2 Galleries
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -141,7 +142,44 @@ a img {
 }
 
 /*--------------------------------------------------------------
-2.0 Typography
+2.0 Layout
+--------------------------------------------------------------*/
+#page {
+}
+
+#masthead,
+#colophon {
+	width: 100%;
+	background: #111;
+	color: #f5f5f5;
+	font-weight: 300;
+}
+
+#masthead .site-branding,
+#masthead .main-navigation,
+#colophon .site-info {
+	width: 100%;
+	max-width: 1080px;
+	padding: 0 2em;
+	margin: 0 auto;
+}
+
+#content {
+	max-width: 1080px;
+	padding: 1em 2em;
+	margin: 0 auto;
+}
+
+#masthead {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+#colophon {
+	padding: 1em 0;
+	box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------------------------
+3.0 Typography
 --------------------------------------------------------------*/
 body,
 button,
@@ -149,7 +187,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -162,6 +200,25 @@ h4,
 h5,
 h6 {
 	clear: both;
+}
+
+h1.site-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.5em;
+	padding: 1em 0 0 0;
+	letter-spacing: 0.1em;
+}
+
+h2.site-description {
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.main-navigation li {
+	font-size: 14px;
 }
 
 p {
@@ -245,7 +302,7 @@ big {
 }
 
 /*--------------------------------------------------------------
-3.0 Elements
+4.0 Elements
 --------------------------------------------------------------*/
 hr {
 	background-color: #ccc;
@@ -300,7 +357,7 @@ th {
 }
 
 /*--------------------------------------------------------------
-4.0 Forms
+5.0 Forms
 --------------------------------------------------------------*/
 button,
 input,
@@ -408,56 +465,74 @@ textarea {
 }
 
 /*--------------------------------------------------------------
-5.0 Navigation
+6.0 Navigation
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-5.1 Links
+6.1 Links
 --------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
-
+a,
 a:visited {
-	color: purple;
+	color: #000;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #404040;
+	text-decoration: underline;
+}
+
+#masthead a,
+#colophon a,
+#masthead a:visited,
+#colophon a:visited {
+	color: #f5f5f5;
+}
+
+#masthead a:hover,
+#colophon a:hover,
+#masthead a:focus,
+#colophon a:focus,
+#masthead a:active,
+#colophon a:active {
+	color: #fff;
+	text-decoration: none;
 }
 
 /*--------------------------------------------------------------
-5.2 Menus
+6.2 Menus
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
 }
 
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	text-align: center;
 }
 
 .main-navigation li {
-	float: left;
 	position: relative;
+	display: inline-block;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding: 1em 0.5em;
 }
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
-	top: 1.5em;
+	background: #111;
+	text-align: left;
+	top: auto;
 	left: -999em;
 	z-index: 99999;
 }
@@ -471,14 +546,15 @@ a:active {
 	width: 200px;
 }
 
-.main-navigation ul ul li {
-
+.main-navigation ul ul li a {
+	padding: 0.5em 1em;
 }
 
 .main-navigation li:hover > a {
 }
 
-.main-navigation ul ul :hover > a {
+.main-navigation ul ul li:hover {
+	background: #272727;
 }
 
 .main-navigation ul ul a:hover {
@@ -486,10 +562,12 @@ a:active {
 
 .main-navigation ul li:hover > ul {
 	left: auto;
+	margin-left: -0.5em;
 }
 
 .main-navigation ul ul li:hover > ul {
 	left: 100%;
+	margin-left: 0;
 }
 
 .main-navigation .current_page_item a,
@@ -535,7 +613,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-6.0 Accessibility
+7.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers */
 .screen-reader-text {
@@ -568,7 +646,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-7.0 Alignments
+8.0 Alignments
 --------------------------------------------------------------*/
 .alignleft {
 	display: inline;
@@ -589,7 +667,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-8.0 Clearings
+9.0 Clearings
 --------------------------------------------------------------*/
 .clear:before,
 .clear:after,
@@ -617,7 +695,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-9.0 Widgets
+10.0 Widgets
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
@@ -634,10 +712,10 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-10.0 Content
+11.0 Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-10.1 Posts and pages
+11.1 Posts and pages
 --------------------------------------------------------------*/
 .sticky {
 	display: block;
@@ -669,7 +747,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-10.2 Asides
+11.2 Asides
 --------------------------------------------------------------*/
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
@@ -677,7 +755,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-10.3 Comments
+11.3 Comments
 --------------------------------------------------------------*/
 .comment-content a {
 	word-wrap: break-word;
@@ -688,7 +766,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-11.0 Infinite scroll
+12.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
@@ -702,7 +780,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-12.0 Media
+13.0 Media
 --------------------------------------------------------------*/
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
@@ -721,7 +799,7 @@ object {
 }
 
 /*--------------------------------------------------------------
-12.1 Captions
+13.1 Captions
 --------------------------------------------------------------*/
 .wp-caption {
 	margin-bottom: 1.5em;
@@ -742,7 +820,7 @@ object {
 }
 
 /*--------------------------------------------------------------
-12.2 Galleries
+13.2 Galleries
 --------------------------------------------------------------*/
 .gallery {
 	margin-bottom: 1.5em;

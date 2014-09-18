@@ -13,8 +13,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'stock' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'stock' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'stock' ), 'Stock', '<a href="http://carb.is" rel="designer">Luke Carbis</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
