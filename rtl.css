@@ -49,6 +49,13 @@ td {
 .main-navigation ul ul {
 	float: right;
 	text-align: right;
+	right: -999em;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: -999em;
+	left: auto;
 }
 
 .main-navigation ul li:hover > ul {
