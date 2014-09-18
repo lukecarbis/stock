@@ -22,7 +22,7 @@ td {
 
 #primary {
 	float: left;
-	margin-left: 18em;
+	margin-left: 25%;
 	padding-left: 2em;
 	margin-right: 0;
 	padding-right: 0;
@@ -30,13 +30,40 @@ td {
 
 #secondary {
 	float: left;
-	width: 18em;
+	width: 25%;
 	margin-left: -100%;
 	margin-right: 2em;
 	padding-left: 0;
 	padding-right: 2em;
 	border-left: 0;
 	border-right: 1px solid #eee;
+}
+
+@media screen and (max-width: 960px) {
+	#primary {
+		margin-left: 35%;
+		margin-right: 0;
+	}
+
+	#secondary {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#primary,
+	#secondary {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#secondary {
+		border-right: 0;
+	}
 }
 
 .entry-footer .comments-link,

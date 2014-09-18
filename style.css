@@ -181,13 +181,14 @@ a img {
 
 #primary {
 	float: right;
-	margin-right: 18em;
+	margin-right: 25%;
 	padding-right: 2em;
+	min-width: 75%;
 }
 
 #secondary {
 	float: right;
-	width: 18em;
+	width: 25%;
 	margin-right: -100%;
 	margin-left: 2em;
 	padding-left: 2em;
@@ -722,6 +723,18 @@ a:active {
 /* Small menu */
 .menu-toggle {
 	display: none;
+	margin: 1em auto;
+}
+
+@media screen and (max-width: 960px) {
+	#primary {
+		margin-right: 35%;
+		min-width: 65%;
+	}
+
+	#secondary {
+		width: 35%;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -732,6 +745,21 @@ a:active {
 
 	.main-navigation ul {
 		display: none;
+	}
+
+	#primary,
+	#secondary {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#secondary {
+		border-left: 0;
+		text-align: center;
 	}
 }
 
