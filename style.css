@@ -181,15 +181,15 @@ a img {
 
 #primary {
 	float: right;
-	margin-right: 20em;
+	margin-right: 18em;
 	padding-right: 2em;
 }
 
 #secondary {
 	float: right;
-	width: 20em;
+	width: 18em;
 	margin-right: -100%;
-	margin-left: 1em;
+	margin-left: 2em;
 	padding-left: 2em;
 	border-left: 1px solid #eee;
 }

@@ -22,7 +22,7 @@ td {
 
 #primary {
 	float: left;
-	margin-left: 20em;
+	margin-left: 18em;
 	padding-left: 2em;
 	margin-right: 0;
 	padding-right: 0;
@@ -30,9 +30,9 @@ td {
 
 #secondary {
 	float: left;
-	width: 19em;
+	width: 18em;
 	margin-left: -100%;
-	margin-right: 1em;
+	margin-right: 2em;
 	padding-left: 0;
 	padding-right: 2em;
 	border-left: 0;
