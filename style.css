@@ -166,16 +166,32 @@ a img {
 
 #content {
 	max-width: 1080px;
-	padding: 1em 2em;
+	padding: 2em;
 	margin: 0 auto;
 }
 
 #masthead {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
+
 #colophon {
 	padding: 1em 0;
 	box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#primary {
+	float: right;
+	margin-right: 20em;
+	padding-right: 2em;
+}
+
+#secondary {
+	float: right;
+	width: 19em;
+	margin-right: -100%;
+	margin-left: 1em;
+	padding-left: 2em;
+	border-left: 1px solid #eee;
 }
 
 /*--------------------------------------------------------------
@@ -209,6 +225,10 @@ h1.site-title {
 	font-size: 1.5em;
 	padding: 1em 0 0 0;
 	letter-spacing: 0.1em;
+}
+
+h1.site-title a:hover {
+	text-decoration: none;
 }
 
 h2.site-description {
@@ -497,7 +517,6 @@ a:active {
 #masthead a:active,
 #colophon a:active {
 	color: #fff;
-	text-decoration: none;
 }
 
 /*--------------------------------------------------------------
