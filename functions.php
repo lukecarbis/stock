@@ -106,13 +106,31 @@ function stock_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	$primary_color   = get_theme_mod( 'stock_primary_feature_color' );
+	$secondary_color = get_theme_mod( 'stock_secondary_feature_color' );
+
+	$custom_css = "
+	.entry-content a,
+	.entry-content a:visited,
+	.comment-content a,
+	.comment-content a:visited,
+	.comment-author a,
+	.comment-author a:visited,
+	.entry-footer a,
+	.entry-footer a:visited,
+	a:hover,
+	a:focus,
+	a:active {
+		color: {$primary_color};
+	}
+	#masthead {
+		color: {$secondary_color};
+	}";
+
+	wp_add_inline_style( 'stock-style', $custom_css );
 }
 add_action( 'wp_enqueue_scripts', 'stock_scripts' );
-
-/**
- * Implement the Custom Header feature.
- */
-//require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.

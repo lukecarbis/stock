@@ -12,7 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'stock' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'stock' ), 'WordPress' ); ?></a>
+			<?php echo wp_kses_post( get_theme_mod( 'stock_footer_text' ) ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
