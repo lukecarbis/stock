@@ -72,6 +72,10 @@ td {
 	}
 }
 
+.entry-footer .cat-links {
+	padding-right: 1em;
+}
+
 .entry-footer .comments-link,
 .entry-footer .edit-link {
 	float: left;
