@@ -11,8 +11,12 @@
 
 		<?php
 		if ( has_post_thumbnail() ) {
-			$thumbnail      = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
-			printf( '<div class="entry-thumbnail" style="background-image: url(%s);"></div>', esc_attr( $thumbnail[0] ) ); //xss ok
+			$image   = get_the_post_thumbnail();
+			$pattern = '/src="([^"]*)"/';
+
+			preg_match( $pattern, $image, $matches );
+
+			printf( '<div class="entry-thumbnail" style="background-image: url(%s);"></div>', esc_attr( $matches[1] ) ); //xss ok
 		}
 		?>
 
