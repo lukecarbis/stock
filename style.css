@@ -187,7 +187,7 @@ a img {
 	float: right;
 	margin-right: 25%;
 	padding-right: 2em;
-	min-width: 75%;
+	max-width: 75%;
 }
 
 #secondary {
