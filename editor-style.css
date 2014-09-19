@@ -15,3 +15,10 @@ body#tinymce.wp-editor a {
 	color: #000;
 	text-decoration: underline;
 }
+
+body#tinymce.wp-editor blockquote {
+	margin: 0 1.5em;
+	font-family: 'Crimson Text', serif;
+	font-size: 24px;
+	font-style: italic;
+}
