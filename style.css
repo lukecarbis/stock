@@ -38,7 +38,7 @@ and Blueprint http://www.blueprintcss.org/
 10.0 Widgets
 11.0 Content
 	11.1 Posts and pages
-	11.2 Asides
+	11.2 Post formats
 	11.3 Comments
 12.0 Infinite scroll
 13.0 Media
@@ -985,11 +985,40 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-11.2 Asides
+11.2 Post formats
 --------------------------------------------------------------*/
+.blog .format-aside,
+.archive .format-aside,
+.blog .format-quote,
+.archive .format-quote {
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	padding: 1em;
+}
+
+.blog .format-aside .entry-footer,
+.archive .format-aside .entry-footer,
+.blog .format-quote .entry-footer,
+.archive .format-quote .entry-footer {
+	border-bottom: 0;
+}
+
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
 	display: none;
+}
+
+.blog .format-aside .entry-meta,
+.archive .format-aside .entry-meta {
+	text-align: left;
+}
+
+.blog .format-quote .entry-content,
+.archive .format-quote .entry-content {
+	font-size: 22px;
+	font-size: 2.2rem;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
 }
 
 /*--------------------------------------------------------------
