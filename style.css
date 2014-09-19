@@ -1204,7 +1204,10 @@ object {
 13.2 Galleries
 --------------------------------------------------------------*/
 .gallery {
-	margin-bottom: 1.5em;
+	margin: 1.5em 0px;
+	padding: 2em;
+	background: #fff;
+	border: 1px solid #eee;
 }
 
 .gallery-item {
@@ -1212,6 +1215,7 @@ object {
 	text-align: center;
 	vertical-align: top;
 	width: 100%;
+	margin-bottom: 1em;
 }
 
 .gallery-columns-2 .gallery-item {
