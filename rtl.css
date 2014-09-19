@@ -1,0 +1,154 @@
+/*
+Theme Name: Stock
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+#primary {
+	float: left;
+	margin-left: 25%;
+	padding-left: 2em;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+#primary.full-width {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+#secondary {
+	float: left;
+	width: 25%;
+	margin-left: -100%;
+	margin-right: 2em;
+	padding-left: 0;
+	padding-right: 2em;
+	border-left: 0;
+	border-right: 1px solid #eee;
+}
+
+@media screen and (max-width: 960px) {
+	#primary {
+		margin-left: 35%;
+		margin-right: 0;
+	}
+
+	#secondary {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#primary,
+	#secondary {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#secondary {
+		border-right: 0;
+	}
+}
+
+.entry-footer .cat-links {
+	padding-left: 1em;
+}
+
+.entry-footer .comments-link,
+.entry-footer .edit-link {
+	float: left;
+	padding-left: 0;
+	padding-right: 1em;
+}
+
+.main-navigation ul ul {
+	float: right;
+	text-align: right;
+	right: -999em;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: -999em;
+	left: auto;
+}
+
+.main-navigation ul li:hover > ul {
+	right: auto;
+	margin-right: -0.5em;
+	margin-left: 0;
+}
+
+.main-navigation ul ul li:hover > ul {
+	right: 100%;
+	left: auto;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.comment-navigation .nav-previous,
+.paging-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: right;
+}
+
+.comment-navigation .nav-next,
+.paging-navigation .nav-next,
+.post-navigation .nav-next {
+	float: left;
+	text-align: left;
+}
+
+.comment-respond #cancel-comment-reply-link {
+	margin-left: 0;
+	margin-right: 1em;
+}
+
+.comment-form label {
+	padding-left: 1em;
+	padding-right: 0;
+}
+
+.comment .comment-metadata .edit-link {
+	float: left;
+}
+
+.comment .comment-meta .comment-author .avatar {
+	float: right;
+	margin-left: 1em;
+	margin-right: 0;
+}
+
+.alignleft {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: 0;
+}
+
+.alignright {
+	float: left;
+	margin-right: 1.5em;
+	margin-left: 0;
+}

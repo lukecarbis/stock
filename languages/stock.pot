@@ -1,0 +1,1678 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: stock-1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-19 16:07+1000\n"
+"PO-Revision-Date: 2014-09-19 16:07+1000\n"
+"Last-Translator: Luke Carbis <luke@wp-stream.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_htm_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../stock/404.php:15 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../stock/404.php:19 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../stock/404.php:27 ../twentyeleven/404.php:28 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#. translators: %1$s: smilie
+#. translators: %1$s: smiley
+#: ../stock/404.php:44 ../twentyeleven/404.php:36 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../stock/archive.php:27 archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../stock/archive.php:30 archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../stock/archive.php:33 archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../stock/archive.php:33 ../twentyeleven/archive.php:27
+#: ../twentyfourteen/archive.php:34 ../twentyten/archive.php:36
+#: ../twentythirteen/archive.php:31 ../twentytwelve/archive.php:31
+#: archive.php:33
+msgid "F Y"
+msgstr ""
+
+#: ../stock/archive.php:36 archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../stock/archive.php:36 ../twentyeleven/archive.php:29
+#: ../twentyfourteen/archive.php:37 ../twentyten/archive.php:38
+#: ../twentythirteen/archive.php:33 ../twentytwelve/archive.php:33
+#: archive.php:36
+msgid "Y"
+msgstr ""
+
+#: ../stock/archive.php:39 ../twentyfourteen/taxonomy-post_format.php:30
+#: ../twentyfourteen/inc/widgets.php:79 archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: ../stock/archive.php:42 ../twentyfourteen/taxonomy-post_format.php:48
+#: ../twentyfourteen/inc/widgets.php:74 archive.php:42
+msgid "Galleries"
+msgstr ""
+
+#: ../stock/archive.php:45 ../twentyfourteen/taxonomy-post_format.php:33
+#: ../twentyfourteen/inc/widgets.php:54 archive.php:45
+msgid "Images"
+msgstr ""
+
+#: ../stock/archive.php:48 ../twentyfourteen/taxonomy-post_format.php:36
+#: ../twentyfourteen/inc/widgets.php:58 archive.php:48
+msgid "Videos"
+msgstr ""
+
+#: ../stock/archive.php:51 ../twentyfourteen/taxonomy-post_format.php:42
+#: ../twentyfourteen/inc/widgets.php:66 archive.php:51
+msgid "Quotes"
+msgstr ""
+
+#: ../stock/archive.php:54 ../twentyfourteen/taxonomy-post_format.php:45
+#: ../twentyfourteen/inc/widgets.php:70 archive.php:54
+msgid "Links"
+msgstr ""
+
+#: ../stock/archive.php:57 archive.php:57
+msgid "Statuses"
+msgstr ""
+
+#: ../stock/archive.php:60 archive.php:60
+msgid "Audios"
+msgstr ""
+
+#: ../stock/archive.php:63 archive.php:63
+msgid "Chats"
+msgstr ""
+
+#: ../stock/archive.php:66 ../twentyeleven/sidebar.php:19
+#: ../twentyfourteen/archive.php:40
+#: ../twentyfourteen/taxonomy-post_format.php:51 ../twentyten/sidebar.php:28
+#: ../twentythirteen/archive.php:35 ../twentytwelve/archive.php:35
+#: archive.php:66
+msgid "Archives"
+msgstr ""
+
+#: ../stock/comments.php:35 ../stock/comments.php:52
+#: ../twentyeleven/comments.php:41 ../twentyeleven/comments.php:62
+#: ../twentyfourteen/comments.php:34 ../twentyfourteen/comments.php:52
+#: ../twentythirteen/comments.php:45 ../twentytwelve/comments.php:42
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: ../stock/comments.php:36 ../stock/comments.php:53
+#: ../twentyeleven/comments.php:42 ../twentyeleven/comments.php:63
+#: ../twentyfourteen/comments.php:35 ../twentyfourteen/comments.php:53
+#: ../twentythirteen/comments.php:46 ../twentytwelve/comments.php:43
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../stock/comments.php:37 ../stock/comments.php:54
+#: ../twentyeleven/comments.php:43 ../twentyeleven/comments.php:64
+#: ../twentyfourteen/comments.php:36 ../twentyfourteen/comments.php:54
+#: ../twentythirteen/comments.php:47 ../twentytwelve/comments.php:44
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../stock/comments.php:64 ../twentyeleven/comments.php:74
+#: ../twentyfourteen/comments.php:59 ../twentyten/comments.php:73
+#: ../twentythirteen/comments.php:52 ../twentytwelve/comments.php:53
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../stock/content-none.php:13 ../twentyeleven/archive.php:57
+#: ../twentyeleven/author.php:86 ../twentyeleven/category.php:59
+#: ../twentyeleven/index.php:37 ../twentyeleven/search.php:44
+#: ../twentyeleven/tag.php:60 ../twentyfourteen/content-none.php:12
+#: ../twentyten/search.php:27 ../twentythirteen/content-none.php:12
+#: ../twentytwelve/content-none.php:13 ../twentytwelve/index.php:49
+#: ../twentytwelve/search.php:34 content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../stock/content-none.php:19 ../twentyfourteen/content-none.php:18
+#: ../twentythirteen/content-none.php:18 content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../stock/content-none.php:23 ../twentyfourteen/content-none.php:22
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../stock/content-none.php:28 ../twentyfourteen/content-none.php:27
+#: ../twentythirteen/content-none.php:27 ../twentytwelve/404.php:21
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../stock/content-page.php:18 ../stock/content-single.php:33
+#: ../stock/content.php:29 ../twentyeleven/content-aside.php:36
+#: ../twentyeleven/content-featured.php:23
+#: ../twentyeleven/content-gallery.php:52 ../twentyeleven/content-image.php:30
+#: ../twentyeleven/content-intro.php:18 ../twentyeleven/content-link.php:36
+#: ../twentyeleven/content-page.php:18 ../twentyeleven/content-quote.php:36
+#: ../twentyeleven/content-single.php:24 ../twentyeleven/content-status.php:49
+#: ../twentyeleven/content.php:42 ../twentyeleven/image.php:98
+#: ../twentyfourteen/content-aside.php:48
+#: ../twentyfourteen/content-audio.php:48
+#: ../twentyfourteen/content-gallery.php:48
+#: ../twentyfourteen/content-image.php:48
+#: ../twentyfourteen/content-link.php:48 ../twentyfourteen/content-page.php:22
+#: ../twentyfourteen/content-quote.php:48
+#: ../twentyfourteen/content-video.php:48 ../twentyfourteen/content.php:56
+#: ../twentyfourteen/image.php:54 ../twentyten/loop-attachment.php:120
+#: ../twentyten/loop-page.php:29 ../twentyten/loop-single.php:34
+#: ../twentyten/loop.php:145 ../twentythirteen/content-aside.php:14
+#: ../twentythirteen/content-audio.php:25
+#: ../twentythirteen/content-chat.php:24
+#: ../twentythirteen/content-gallery.php:25
+#: ../twentythirteen/content-image.php:24
+#: ../twentythirteen/content-link.php:25
+#: ../twentythirteen/content-quote.php:14
+#: ../twentythirteen/content-status.php:14
+#: ../twentythirteen/content-video.php:24 ../twentythirteen/content.php:42
+#: ../twentythirteen/image.php:70 ../twentythirteen/page.php:35
+#: ../twentytwelve/content-page.php:21 ../twentytwelve/content.php:45
+#: ../twentytwelve/image.php:102 content-page.php:18 content-single.php:33
+#: content.php:29
+msgid "Pages:"
+msgstr ""
+
+#: ../stock/content-page.php:25 ../stock/inc/template-tags.php:122
+#: ../twentyeleven/content-aside.php:46
+#: ../twentyeleven/content-featured.php:45
+#: ../twentyeleven/content-gallery.php:88 ../twentyeleven/content-image.php:70
+#: ../twentyeleven/content-intro.php:19 ../twentyeleven/content-link.php:46
+#: ../twentyeleven/content-page.php:21 ../twentyeleven/content-quote.php:72
+#: ../twentyeleven/content-single.php:52 ../twentyeleven/content-status.php:59
+#: ../twentyeleven/content.php:82 ../twentyeleven/functions.php:606
+#: ../twentyeleven/functions.php:634 ../twentyeleven/image.php:41
+#: ../twentyfourteen/content-aside.php:40
+#: ../twentyfourteen/content-audio.php:40
+#: ../twentyfourteen/content-gallery.php:40
+#: ../twentyfourteen/content-image.php:40
+#: ../twentyfourteen/content-link.php:40 ../twentyfourteen/content-page.php:28
+#: ../twentyfourteen/content-quote.php:40
+#: ../twentyfourteen/content-video.php:40 ../twentyfourteen/content.php:42
+#: ../twentyfourteen/image.php:34
+#: ../twentyfourteen/page-templates/contributors.php:35
+#: ../twentyten/loop-attachment.php:63 ../twentyten/loop-attachment.php:126
+#: ../twentyten/loop-page.php:30 ../twentyten/loop-single.php:59
+#: ../twentyten/loop.php:101 ../twentyten/loop.php:124
+#: ../twentyten/loop.php:166 ../twentythirteen/content-aside.php:20
+#: ../twentythirteen/content-aside.php:28
+#: ../twentythirteen/content-audio.php:31
+#: ../twentythirteen/content-chat.php:29
+#: ../twentythirteen/content-gallery.php:39
+#: ../twentythirteen/content-image.php:35
+#: ../twentythirteen/content-link.php:19
+#: ../twentythirteen/content-quote.php:25
+#: ../twentythirteen/content-status.php:19
+#: ../twentythirteen/content-video.php:35 ../twentythirteen/content.php:31
+#: ../twentythirteen/image.php:44 ../twentythirteen/page.php:39
+#: ../twentytwelve/content-aside.php:26 ../twentytwelve/content-image.php:26
+#: ../twentytwelve/content-link.php:24 ../twentytwelve/content-page.php:24
+#: ../twentytwelve/content-quote.php:23 ../twentytwelve/content-status.php:40
+#: ../twentytwelve/content.php:51 ../twentytwelve/functions.php:345
+#: ../twentytwelve/image.php:37 content-page.php:25 inc/template-tags.php:122
+msgid "Edit"
+msgstr ""
+
+#: ../stock/content-single.php:8 content-single.php:8
+msgid "entry-header has-thumbnail"
+msgstr ""
+
+#: ../stock/content.php:22 content.php:22
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../stock/functions.php:45 ../twentyeleven/functions.php:95
+#: ../twentyfourteen/header.php:52 ../twentytwelve/functions.php:64
+#: functions.php:45
+msgid "Primary Menu"
+msgstr ""
+
+#: ../stock/functions.php:83 functions.php:83
+msgid "Sidebar"
+msgstr ""
+
+#: ../stock/header.php:23 ../twentyfourteen/header.php:53
+#: ../twentyten/header.php:105 ../twentythirteen/header.php:44
+#: ../twentytwelve/header.php:44 header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: ../stock/header.php:32 ../twentythirteen/header.php:43
+#: ../twentytwelve/header.php:43 header.php:32
+msgid "Menu"
+msgstr ""
+
+#: ../stock/search.php:16 ../twentyeleven/search.php:18
+#: ../twentyfourteen/search.php:18 ../twentyten/search.php:16
+#: ../twentythirteen/search.php:18 ../twentytwelve/search.php:18 search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../stock/inc/customizer.php:25 inc/customizer.php:25
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#: ../stock/inc/customizer.php:30 inc/customizer.php:30
+msgid "Footer"
+msgstr ""
+
+#: ../stock/inc/customizer.php:35 inc/customizer.php:35
+msgid "Primary Feature Color"
+msgstr ""
+
+#: ../stock/inc/customizer.php:41 inc/customizer.php:41
+msgid "Secondary Feature Color"
+msgstr ""
+
+#: ../stock/inc/customizer.php:47 inc/customizer.php:47
+msgid "Footer Text"
+msgstr ""
+
+#: ../stock/inc/extras.php:63 ../twentyeleven/header.php:43
+#: ../twentyfourteen/functions.php:491 ../twentyten/header.php:33
+#: ../twentythirteen/functions.php:218 ../twentytwelve/functions.php:213
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:21
+#: ../twentyfourteen/inc/template-tags.php:58
+#: ../twentythirteen/functions.php:266 inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:25 ../twentyeleven/functions.php:507
+#: ../twentyten/loop.php:25 ../twentyten/loop.php:179
+#: ../twentythirteen/functions.php:270 ../twentytwelve/functions.php:287
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:29 ../twentyeleven/functions.php:508
+#: ../twentyten/loop.php:26 ../twentyten/loop.php:180
+#: ../twentythirteen/functions.php:274 ../twentytwelve/functions.php:288
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:52 ../twentyeleven/functions.php:506
+#: ../twentyeleven/single.php:18 ../twentyfourteen/inc/template-tags.php:85
+#: ../twentythirteen/functions.php:300 ../twentytwelve/functions.php:286
+#: ../twentytwelve/single.php:20 inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:55 inc/template-tags.php:55
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:56 inc/template-tags.php:56
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:82 inc/template-tags.php:82
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:87 inc/template-tags.php:87
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: ../stock/inc/template-tags.php:104 ../stock/inc/template-tags.php:110
+#: ../twentyeleven/content-featured.php:29
+#: ../twentyeleven/content-featured.php:38
+#: ../twentyeleven/content-gallery.php:60
+#: ../twentyeleven/content-gallery.php:70 ../twentyeleven/content-image.php:49
+#: ../twentyeleven/content-image.php:58 ../twentyeleven/content-quote.php:44
+#: ../twentyeleven/content-quote.php:54 ../twentyeleven/content-single.php:30
+#: ../twentyeleven/content-single.php:33 ../twentyeleven/content.php:51
+#: ../twentyeleven/content.php:63 ../twentyfourteen/content-aside.php:17
+#: ../twentyfourteen/content-audio.php:17
+#: ../twentyfourteen/content-featured-post.php:28
+#: ../twentyfourteen/content-gallery.php:17
+#: ../twentyfourteen/content-image.php:17
+#: ../twentyfourteen/content-link.php:17
+#: ../twentyfourteen/content-quote.php:17
+#: ../twentyfourteen/content-video.php:17 ../twentyfourteen/content.php:19
+#: ../twentythirteen/functions.php:328 ../twentythirteen/functions.php:334
+#: ../twentytwelve/functions.php:370 ../twentytwelve/functions.php:373
+#: inc/template-tags.php:104 inc/template-tags.php:110
+msgid ", "
+msgstr ""
+
+#: ../stock/inc/template-tags.php:106 inc/template-tags.php:106
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:112 inc/template-tags.php:112
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:118 ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194 ../twentyten/loop.php:100
+#: ../twentyten/loop.php:123 ../twentyten/loop.php:165
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:118 ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194 ../twentyten/loop.php:100
+#: ../twentyten/loop.php:123 ../twentyten/loop.php:165
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr ""
+
+#: ../stock/inc/template-tags.php:118 ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194 ../twentyten/loop.php:100
+#: ../twentyten/loop.php:123 ../twentyten/loop.php:165
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr ""
+
+#: ../twentyeleven/404.php:17 ../twentythirteen/404.php:21
+#: ../twentytwelve/404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../twentyeleven/404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: ../twentyeleven/archive.php:25 ../twentyfourteen/archive.php:31
+#: ../twentythirteen/archive.php:29 ../twentytwelve/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../twentyeleven/archive.php:27 ../twentyfourteen/archive.php:34
+#: ../twentythirteen/archive.php:31 ../twentytwelve/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../twentyeleven/archive.php:29 ../twentyfourteen/archive.php:37
+#: ../twentythirteen/archive.php:33 ../twentytwelve/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../twentyeleven/archive.php:31 ../twentyten/archive.php:40
+msgid "Blog Archives"
+msgstr ""
+
+#: ../twentyeleven/archive.php:61 ../twentyeleven/author.php:90
+#: ../twentyeleven/category.php:63 ../twentyeleven/index.php:41
+#: ../twentyeleven/tag.php:64 ../twentyten/loop.php:35
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: ../twentyeleven/author.php:29 ../twentyten/author.php:28
+#: ../twentytwelve/author.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../twentyeleven/author.php:60 ../twentyeleven/content-single.php:63
+#: ../twentyten/author.php:47 ../twentyten/loop-single.php:46
+#: ../twentythirteen/author-bio.php:26 ../twentytwelve/author.php:63
+#: ../twentytwelve/content.php:62
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../twentyeleven/category.php:19 ../twentyfourteen/category.php:20
+#: ../twentyten/category.php:16 ../twentythirteen/category.php:19
+#: ../twentytwelve/category.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../twentyeleven/comments.php:17 ../twentyten/comments.php:18
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../twentyeleven/comments.php:34 ../twentyfourteen/comments.php:27
+#: ../twentytwelve/comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:19
+msgid "Aside"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:24 ../twentyeleven/content-image.php:23
+#: ../twentyeleven/content-link.php:24 ../twentyeleven/content-quote.php:24
+#: ../twentyeleven/content-status.php:24 ../twentyeleven/content.php:30
+#: ../twentytwelve/functions.php:349
+msgid "Reply"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:24 ../twentyeleven/content-image.php:23
+#: ../twentyeleven/content-link.php:24 ../twentyeleven/content-quote.php:24
+#: ../twentyeleven/content-status.php:24 ../twentyeleven/content.php:30
+msgid "1"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:24 ../twentyeleven/content-image.php:23
+#: ../twentyeleven/content-link.php:24 ../twentyeleven/content-quote.php:24
+#: ../twentyeleven/content-status.php:24 ../twentyeleven/content.php:30
+msgid "%"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:35 ../twentyeleven/content-gallery.php:34
+#: ../twentyeleven/content-image.php:29 ../twentyeleven/content-link.php:35
+#: ../twentyeleven/content-quote.php:35 ../twentyeleven/content-status.php:48
+#: ../twentyeleven/content.php:41 ../twentyeleven/functions.php:375
+#: ../twentyfourteen/content-aside.php:46
+#: ../twentyfourteen/content-audio.php:46
+#: ../twentyfourteen/content-gallery.php:46
+#: ../twentyfourteen/content-image.php:46
+#: ../twentyfourteen/content-link.php:46
+#: ../twentyfourteen/content-quote.php:46
+#: ../twentyfourteen/content-video.php:46 ../twentyfourteen/content.php:54
+#: ../twentyfourteen/inc/widgets.php:127 ../twentyfourteen/inc/widgets.php:172
+#: ../twentyten/functions.php:280 ../twentyten/loop-attachment.php:119
+#: ../twentyten/loop.php:116 ../twentyten/loop.php:144
+#: ../twentythirteen/content-aside.php:13
+#: ../twentythirteen/content-audio.php:24
+#: ../twentythirteen/content-gallery.php:24
+#: ../twentythirteen/content-image.php:23
+#: ../twentythirteen/content-link.php:24
+#: ../twentythirteen/content-quote.php:13
+#: ../twentythirteen/content-status.php:13
+#: ../twentythirteen/content-video.php:23 ../twentythirteen/content.php:41
+#: ../twentytwelve/content-aside.php:15 ../twentytwelve/content-image.php:13
+#: ../twentytwelve/content-link.php:14 ../twentytwelve/content-quote.php:13
+#: ../twentytwelve/content-status.php:31 ../twentytwelve/content.php:44
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:44 ../twentyeleven/content-gallery.php:85
+#: ../twentyeleven/content-image.php:66 ../twentyeleven/content-link.php:44
+#: ../twentyeleven/content-quote.php:69 ../twentyeleven/content-status.php:57
+#: ../twentyeleven/content.php:79 ../twentyeleven/showcase.php:202
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:33
+msgid "Leave a reply"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:44 ../twentyeleven/content-gallery.php:85
+#: ../twentyeleven/content-image.php:66 ../twentyeleven/content-link.php:44
+#: ../twentyeleven/content-quote.php:69 ../twentyeleven/content-status.php:57
+#: ../twentyeleven/content.php:79 ../twentyeleven/showcase.php:202
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: ../twentyeleven/content-aside.php:44 ../twentyeleven/content-gallery.php:85
+#: ../twentyeleven/content-image.php:66 ../twentyeleven/content-link.php:44
+#: ../twentyeleven/content-quote.php:69 ../twentyeleven/content-status.php:57
+#: ../twentyeleven/content.php:79 ../twentyeleven/showcase.php:202
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: ../twentyeleven/content-featured.php:31 ../twentyten/functions.php:537
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../twentyeleven/content-featured.php:33 ../twentyten/functions.php:539
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../twentyeleven/content-gallery.php:19
+msgid "Gallery"
+msgstr ""
+
+#: ../twentyeleven/content-gallery.php:45 ../twentyten/loop.php:83
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgstr ""
+
+#: ../twentyeleven/content-gallery.php:46 ../twentyeleven/showcase.php:121
+#: ../twentyten/loop.php:84 ../twentythirteen/functions.php:369
+#: ../twentytwelve/content-aside.php:20 ../twentytwelve/content-link.php:18
+#: ../twentytwelve/content-quote.php:17 ../twentytwelve/content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../twentyeleven/content-gallery.php:64 ../twentyeleven/content-image.php:53
+#: ../twentyeleven/content-quote.php:48 ../twentyeleven/content.php:55
+#: ../twentyten/loop.php:152
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: ../twentyeleven/content-gallery.php:76 ../twentyeleven/content-image.php:61
+#: ../twentyeleven/content-quote.php:60 ../twentyeleven/content.php:69
+#: ../twentyten/loop.php:161
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: ../twentyeleven/content-image.php:18
+msgid "Image"
+msgstr ""
+
+#: ../twentyeleven/content-image.php:36
+#, php-format
+msgid ""
+"<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s"
+"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s"
+"\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: ../twentyeleven/content-image.php:41 ../twentyeleven/functions.php:672
+#: ../twentyten/functions.php:520 ../twentyten/loop-attachment.php:36
+#: ../twentythirteen/functions.php:343 ../twentytwelve/functions.php:384
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../twentyeleven/content-link.php:19 ../twentytwelve/content-link.php:12
+msgid "Link"
+msgstr ""
+
+#: ../twentyeleven/content-quote.php:15
+msgid "Quote"
+msgstr ""
+
+#: ../twentyeleven/content-single.php:35
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. "
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: ../twentyeleven/content-single.php:37
+#, php-format
+msgid ""
+"This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a "
+"href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../twentyeleven/content-single.php:39
+#, php-format
+msgid ""
+"This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href="
+"\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../twentyeleven/content-single.php:67 ../twentyten/loop-single.php:50
+#: ../twentythirteen/author-bio.php:30 ../twentytwelve/content.php:66
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyeleven/content-status.php:19
+msgid "Status"
+msgstr ""
+
+#: ../twentyeleven/content.php:16
+msgid "Featured"
+msgstr ""
+
+#: ../twentyeleven/footer.php:28 ../twentyfourteen/footer.php:21
+#: ../twentyten/footer.php:40 ../twentythirteen/footer.php:19
+#: ../twentytwelve/footer.php:16
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../twentyeleven/footer.php:28 ../twentyten/footer.php:40
+#: ../twentythirteen/footer.php:19 ../twentytwelve/footer.php:16
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: ../twentyeleven/footer.php:28 ../twentyfourteen/footer.php:21
+#: ../twentythirteen/footer.php:19 ../twentytwelve/footer.php:16
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:184
+msgid "Wheel"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:190
+msgid "Shore"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:196
+msgid "Trolley"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:202
+msgid "Pine Cone"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:208
+msgid "Chessboard"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:214
+msgid "Lanterns"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:220
+msgid "Willow"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyeleven/functions.php:226
+msgid "Hanoi Plant"
+msgstr ""
+
+#: ../twentyeleven/functions.php:443 ../twentytwelve/functions.php:242
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../twentyeleven/functions.php:452
+msgid "Showcase Sidebar"
+msgstr ""
+
+#: ../twentyeleven/functions.php:454
+msgid "The sidebar for the optional Showcase Template"
+msgstr ""
+
+#: ../twentyeleven/functions.php:462
+msgid "Footer Area One"
+msgstr ""
+
+#: ../twentyeleven/functions.php:464 ../twentyeleven/functions.php:474
+#: ../twentyeleven/functions.php:484
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: ../twentyeleven/functions.php:472
+msgid "Footer Area Two"
+msgstr ""
+
+#: ../twentyeleven/functions.php:482
+msgid "Footer Area Three"
+msgstr ""
+
+#: ../twentyeleven/functions.php:606 ../twentyten/functions.php:400
+#: ../twentytwelve/functions.php:313
+msgid "Pingback:"
+msgstr ""
+
+#. translators: 1: comment author, 2: date and time
+#: ../twentyeleven/functions.php:623
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: ../twentyeleven/functions.php:629 ../twentyten/functions.php:383
+#: ../twentytwelve/functions.php:334
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../twentyeleven/functions.php:638 ../twentyten/functions.php:376
+#: ../twentytwelve/functions.php:340
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../twentyeleven/functions.php:647
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: ../twentyeleven/functions.php:666
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></"
+"a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: ../twentyeleven/header.php:133
+msgid "Main menu"
+msgstr ""
+
+#: ../twentyeleven/header.php:135
+msgid "Skip to primary content"
+msgstr ""
+
+#: ../twentyeleven/header.php:137
+msgid "Skip to secondary content"
+msgstr ""
+
+#: ../twentyeleven/image.php:18
+msgid "Image navigation"
+msgstr ""
+
+#: ../twentyeleven/image.php:19 ../twentyfourteen/inc/template-tags.php:50
+#: ../twentytwelve/image.php:41
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../twentyeleven/image.php:20 ../twentyfourteen/inc/template-tags.php:51
+#: ../twentytwelve/image.php:42
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../twentyeleven/image.php:30
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> "
+"at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> "
+"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: ../twentyeleven/search.php:48 ../twentyten/search.php:29
+#: ../twentytwelve/search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../twentyeleven/searchform.php:11 ../twentyeleven/searchform.php:12
+#: ../twentyeleven/searchform.php:13 ../twentyfourteen/header.php:48
+msgid "Search"
+msgstr ""
+
+#: ../twentyeleven/showcase.php:78
+msgid "Featured Post"
+msgstr ""
+
+#: ../twentyeleven/showcase.php:151
+#, php-format
+msgid "Featuring: %s"
+msgstr ""
+
+#: ../twentyeleven/showcase.php:161
+msgid "Recent Posts"
+msgstr ""
+
+#: ../twentyeleven/sidebar.php:26 ../twentyten/sidebar.php:35
+msgid "Meta"
+msgstr ""
+
+#: ../twentyeleven/single.php:19 ../twentythirteen/image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../twentyeleven/single.php:20 ../twentythirteen/image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyeleven/tag.php:19 ../twentyfourteen/tag.php:22
+#: ../twentyten/tag.php:16 ../twentythirteen/tag.php:21
+#: ../twentytwelve/tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:56
+#: ../twentyeleven/inc/theme-options.php:528
+msgid "Color Scheme"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:62
+#: ../twentyeleven/inc/theme-options.php:545
+msgid "Link Color"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:63
+msgid "Default Layout"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:95
+#: ../twentyeleven/inc/theme-options.php:96
+msgid "Theme Options"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:111
+msgid ""
+"Some themes provide customization options that are grouped together on a "
+"Theme Options screen. If you change themes, options may change or disappear, "
+"as they are theme-specific. Your current theme, Twenty Eleven, provides the "
+"following Theme Options:"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:113
+msgid ""
+"<strong>Color Scheme</strong>: You can choose a color palette of \"Light"
+"\" (light background with dark text) or \"Dark\" (dark background with light "
+"text) for your site."
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:114
+msgid ""
+"<strong>Link Color</strong>: You can choose the color used for text links on "
+"your site. You can enter the HTML color or hex code, or you can choose "
+"visually by clicking the \"Select a Color\" button to pick from a color "
+"wheel."
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:115
+msgid ""
+"<strong>Default Layout</strong>: You can choose if you want your site&#8217;"
+"s default layout to have a sidebar on the left, the right, or not at all."
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:117
+msgid ""
+"Remember to click \"Save Changes\" to save any changes you have made to the "
+"theme options."
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:119
+msgid "For more information:"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:120
+msgid ""
+"<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" "
+"target=\"_blank\">Documentation on Theme Options</a>"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:121
+msgid ""
+"<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
+"a>"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:128
+msgid "Overview"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:150
+msgid "Light"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:156
+msgid "Dark"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:181
+msgid "Content on left"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:186
+msgid "Content on right"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:191
+msgid "One-column, no sidebar"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:298
+msgid "Select a Color"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:301
+#, php-format
+msgid "Default color: %s"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:337
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: ../twentyeleven/inc/theme-options.php:552
+#: ../twentyfourteen/inc/customizer.php:50
+msgid "Layout"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:21
+msgid ""
+"Use this widget to list your recent Aside, Status, Quote, and Link posts"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:22
+msgid "Twenty Eleven Ephemera"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:56
+msgid "Ephemera"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:95 ../twentyeleven/inc/widgets.php:104
+msgid "0 <span class=\"reply\">comments &rarr;</span>"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:95 ../twentyeleven/inc/widgets.php:104
+msgid "1 <span class=\"reply\">comment &rarr;</span>"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:95 ../twentyeleven/inc/widgets.php:104
+msgid "% <span class=\"reply\">comments &rarr;</span>"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:167 ../twentyfourteen/inc/widgets.php:255
+msgid "Title:"
+msgstr ""
+
+#: ../twentyeleven/inc/widgets.php:170 ../twentyfourteen/inc/widgets.php:258
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../twentyfourteen/404.php:17 ../twentyten/404.php:16
+#: ../twentyten/loop.php:33 ../twentythirteen/404.php:16
+msgid "Not Found"
+msgstr ""
+
+#: ../twentyfourteen/404.php:21 ../twentythirteen/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../twentyfourteen/author.php:31 ../twentythirteen/author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:83
+msgid "Top primary menu"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:171
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:173
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:180
+msgid "Content Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:182
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:189
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:191 ../twentythirteen/functions.php:233
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. * by Open Sans, translate this to 'off'. Do not translate into your own language.
+#.
+#: ../twentyfourteen/functions.php:213 ../twentythirteen/functions.php:128
+#: ../twentythirteen/functions.php:134 ../twentytwelve/functions.php:101
+msgid "on"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:254
+msgid "Previous"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:255
+msgid "Next"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:372
+#, php-format
+msgid "%d Article"
+msgstr ""
+
+#: ../twentyfourteen/image.php:65
+msgid "Previous Image"
+msgstr ""
+
+#: ../twentyfourteen/image.php:66
+msgid "Next Image"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:39
+#: ../twentyfourteen/inc/widgets.php:62
+msgid "Audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/back-compat.php:37
+#: ../twentyfourteen/inc/back-compat.php:47
+#: ../twentyfourteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:19
+#: ../twentyfourteen/inc/customizer.php:20
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:28
+msgid "Site Title Color"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:31
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:35
+#: ../twentyfourteen/inc/featured-content.php:405
+msgid "Featured Content"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:36
+#: ../twentyfourteen/inc/featured-content.php:406
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:37
+#: ../twentyfourteen/inc/customizer.php:102
+#: ../twentyfourteen/inc/featured-content.php:407
+#: ../twentyfourteen/inc/featured-content.php:416
+#: ../twentyfourteen/inc/featured-content.php:476
+msgid "featured"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:54
+msgid "Grid"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:55
+msgid "Slider"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:99
+msgid "Twenty Fourteen"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:102
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change "
+"the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If "
+"no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:103
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:104
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:428
+msgid "Tag Name"
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:433
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:89
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:92
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:109
+#: ../twentythirteen/functions.php:322
+msgid "Sticky"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:36
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts."
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:55
+msgid "More images"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:59
+msgid "More videos"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:63
+msgid "More audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:67
+msgid "More quotes"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:71
+msgid "More links"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:75
+msgid "More galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:80
+msgid "More asides"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:162
+#, php-format
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgstr ""
+
+#. translators: used with More archives link
+#: ../twentyfourteen/inc/widgets.php:206
+#, php-format
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:261
+msgid "Post format to show:"
+msgstr ""
+
+#: ../twentyten/404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: ../twentyten/archive.php:34
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../twentyten/archive.php:36
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../twentyten/archive.php:38
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../twentyten/comments.php:36
+#, php-format
+msgid "One Response to %2$s"
+msgstr ""
+
+#: ../twentyten/comments.php:42 ../twentyten/comments.php:62
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../twentyten/comments.php:43 ../twentyten/comments.php:63
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyten/footer.php:40
+#, php-format
+msgid "Proudly powered by %s."
+msgstr ""
+
+#: ../twentyten/functions.php:95
+msgid "Primary Navigation"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:165
+msgid "Berries"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:171
+msgid "Cherry Blossoms"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:177
+msgid "Concave"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:183
+msgid "Fern"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:189
+msgid "Forest Floor"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:195
+msgid "Inkwell"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:201
+msgid "Path"
+msgstr ""
+
+#. translators: header image description
+#: ../twentyten/functions.php:207
+msgid "Sunset"
+msgstr ""
+
+#: ../twentyten/functions.php:373
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../twentyten/functions.php:383 ../twentyten/functions.php:400
+#: ../twentytwelve/functions.php:313
+msgid "(Edit)"
+msgstr ""
+
+#: ../twentyten/functions.php:420
+msgid "Primary Widget Area"
+msgstr ""
+
+#: ../twentyten/functions.php:422
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ../twentyten/functions.php:431 ../twentythirteen/functions.php:241
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../twentyten/functions.php:433
+msgid ""
+"An optional secondary widget area, displays below the primary widget area in "
+"your sidebar."
+msgstr ""
+
+#: ../twentyten/functions.php:442
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: ../twentyten/functions.php:444 ../twentyten/functions.php:455
+#: ../twentyten/functions.php:466 ../twentyten/functions.php:477
+msgid "An optional widget area for your site footer."
+msgstr ""
+
+#: ../twentyten/functions.php:453
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: ../twentyten/functions.php:464
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: ../twentyten/functions.php:475
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: ../twentyten/functions.php:511
+#, php-format
+msgid ""
+"<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</"
+"span> %3$s"
+msgstr ""
+
+#: ../twentyten/functions.php:541
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: ../twentyten/loop-attachment.php:21
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: ../twentyten/loop-attachment.php:23
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: ../twentyten/loop-attachment.php:32
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: ../twentyten/loop-attachment.php:43
+#, php-format
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: ../twentyten/loop-attachment.php:53
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: ../twentyten/loop-attachment.php:56 ../twentythirteen/image.php:38
+msgid "Link to full-size image"
+msgstr ""
+
+#: ../twentyten/loop-single.php:21 ../twentyten/loop-single.php:64
+#: ../twentytwelve/single.php:21
+msgid "&larr;"
+msgstr ""
+
+#: ../twentyten/loop-single.php:22 ../twentyten/loop-single.php:65
+#: ../twentytwelve/single.php:22
+msgid "&rarr;"
+msgstr ""
+
+#: ../twentyten/loop.php:62 ../twentyten/loop.php:96
+msgid "gallery"
+msgstr ""
+
+#: ../twentyten/loop.php:94
+msgid "View Galleries"
+msgstr ""
+
+#: ../twentyten/loop.php:94 ../twentyten/loop.php:97
+msgid "More Galleries"
+msgstr ""
+
+#: ../twentyten/loop.php:97
+msgid "View posts in the Gallery category"
+msgstr ""
+
+#: ../twentyten/loop.php:107
+msgid "asides"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+msgid "One comment so far"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../twentythirteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../twentythirteen/functions.php:97
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../twentythirteen/functions.php:231
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:243
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../twentythirteen/functions.php:303
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: ../twentythirteen/functions.php:304
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/functions.php:363
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../twentythirteen/image.php:22
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../twentythirteen/image.php:39
+msgid "Full resolution"
+msgstr ""
+
+#: ../twentythirteen/taxonomy-post_format.php:23
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: ../twentythirteen/inc/back-compat.php:37
+#: ../twentythirteen/inc/back-compat.php:47
+#: ../twentythirteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Thirteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:49
+msgid "Circle"
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:54
+msgid "Diamond"
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:59
+msgid "Star"
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:33
+msgid "1 Reply"
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:33
+msgid "% Replies"
+msgstr ""
+
+#: ../twentytwelve/content-none.php:17 ../twentytwelve/index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../twentytwelve/content.php:16
+msgid "Featured post"
+msgstr ""
+
+#. translators: To add an additional Open Sans character subset specific to your language,
+#. * translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your own language.
+#.
+#: ../twentytwelve/functions.php:107
+msgid "no-subset"
+msgstr ""
+
+#: ../twentytwelve/functions.php:244
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: ../twentytwelve/functions.php:252
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: ../twentytwelve/functions.php:254 ../twentytwelve/functions.php:264
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: ../twentytwelve/functions.php:262
+msgid "Second Front Page Widget Area"
+msgstr ""
+
+#: ../twentytwelve/functions.php:328
+msgid "Post author"
+msgstr ""
+
+#: ../twentytwelve/functions.php:390
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+
+#: ../twentytwelve/functions.php:392
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: ../twentytwelve/functions.php:394
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: ../twentytwelve/image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../twentytwelve/index.php:38
+msgid "No posts to display"
+msgstr ""
+
+#: ../twentytwelve/index.php:42
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
