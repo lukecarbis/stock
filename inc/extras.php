@@ -87,3 +87,18 @@ function stock_setup_author() {
 	}
 }
 add_action( 'wp', 'stock_setup_author' );
+
+
+/**
+ * Changes the default avatar size for comment authors.
+ *
+ * @see wp_list_comments()
+ *
+ * @param array $r An array of arguments for displaying comments.
+ * @return array
+ */
+function stock_list_comments_args( $args ) {
+	$args['avatar_size'] = 45;
+	return $args;
+}
+add_filter( 'wp_list_comments_args', 'stock_list_comments_args' );

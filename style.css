@@ -128,8 +128,12 @@ q {
 	quotes: "" "";
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
 a:focus {
-	outline: thin dotted;
+    outline: none;
 }
 
 a:hover,
@@ -585,6 +589,8 @@ textarea {
 	color: #666;
 	border: 1px solid #ccc;
 	border-radius: 3px;
+	line-height: 1em;
+	padding: 5px;
 }
 
 input[type="text"]:focus,
@@ -596,19 +602,12 @@ textarea:focus {
 	color: #222;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-	padding: 3px;
-}
-
 textarea {
 	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
-	padding-left: 3px;
+	padding-left: 5px;
 	vertical-align: top; /* Improves readability and alignment in all browsers */
 	width: 100%;
+	line-height: 1.5em;
 }
 
 /*--------------------------------------------------------------
@@ -645,6 +644,23 @@ a:active {
 #colophon a:active {
 	color: #fff;
 }
+
+.entry-content a,
+.entry-content a:visited,
+.comment-content a,
+.comment-content a:visited {
+	text-decoration: underline;
+}
+
+.entry-content a:hover,
+.entry-content a:focus,
+.entry-content a:active,
+.comment-content a:hover,
+.comment-content a:focus,
+.comment-content a:active {
+	text-decoration: none;
+}
+
 
 /*--------------------------------------------------------------
 6.2 Menus
@@ -958,8 +974,102 @@ a:active {
 /*--------------------------------------------------------------
 11.3 Comments
 --------------------------------------------------------------*/
+.comment-respond,
+.no-comments {
+	padding: 1em 1em 0;
+	border-top: 1px solid #eee;
+}
+
+.comment-respond #cancel-comment-reply-link {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-left: 1em;
+}
+
+.comment-respond .logged-in-as {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.comment-form label {
+	display: inline-block;
+	min-width: 6em;
+	padding-right: 1em;
+}
+
+.comment-form .form-allowed-tags,
+.comment-form .form-allowed-tags code {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
 .comment-content a {
 	word-wrap: break-word;
+}
+
+.comments-area ol {
+	list-style-type: none;
+	margin: 1em 0 0;
+}
+
+.comments-area ol.children {
+	border: 1px solid #eee;
+	border-top: 0;
+	margin-bottom: 0;
+	box-shadow: 0 3px 3px rgba(200, 200, 200, 0.1);
+}
+
+.comment-list {
+	margin-top: 1em;
+}
+
+.comment-list .comment {
+	border-top: 1px solid #eee;
+	padding: 1em;
+}
+
+.comment-list .comment.even {
+	background: #f5f5f5;
+}
+
+.comment-list .comment.odd {
+	background: #fbfbfb;
+}
+
+.comment .comment-metadata {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-style: italic;
+	color: #aaa;
+}
+
+.comment .comment-metadata .edit-link {
+	float: right;
+}
+
+.comment .comment-meta .comment-author .avatar {
+	float: left;
+	margin-right: 1em;
+}
+
+.comment .comment-content {
+	margin-top: 1em;
+}
+
+.comment .comment-content p {
+	margin-bottom: 1em;
+}
+
+.comment .reply {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-style: italic;
+}
+
+.comment .comment-respond {
+	margin-top: 1em;
 }
 
 .bypostauthor {
