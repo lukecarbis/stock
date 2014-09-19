@@ -28,6 +28,12 @@ td {
 	padding-right: 0;
 }
 
+#primary.full-width {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
 #secondary {
 	float: left;
 	width: 25%;

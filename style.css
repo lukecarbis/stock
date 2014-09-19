@@ -187,7 +187,14 @@ a img {
 	float: right;
 	margin-right: 25%;
 	padding-right: 2em;
-	max-width: 75%;
+	width: 75%;
+}
+
+#primary.full-width {
+	float: none;
+	margin-right: 0;
+	padding-right: 0;
+	width: 100%;
 }
 
 #secondary {
@@ -366,6 +373,10 @@ h1.entry-title {
 	padding-bottom: 1em;
 	font-size: 14px;
 	font-size: 1.4rem;
+}
+
+.page .entry-footer {
+	border-bottom: 0;
 }
 
 .main-navigation li {
