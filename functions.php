@@ -58,7 +58,7 @@ function stock_setup() {
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'quote',
+		'aside', 'quote', 'link',
 	) );
 
 	// Setup the WordPress core custom background feature.
