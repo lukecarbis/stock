@@ -9,7 +9,7 @@
  * Set the content width based on the theme's design and stylesheet.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 640; /* pixels */
+	$content_width = 730; /* pixels */
 }
 
 if ( ! function_exists( 'stock_setup' ) ) :
@@ -66,6 +66,9 @@ function stock_setup() {
 		'default-color' => 'fbfbfb',
 		'default-image' => '',
 	) ) );
+
+	// Add a custom stylesheet to the editor
+	add_editor_style();
 }
 endif; // stock_setup
 add_action( 'after_setup_theme', 'stock_setup' );
