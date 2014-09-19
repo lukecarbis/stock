@@ -375,6 +375,10 @@ h1.entry-title {
 	font-size: 1.4rem;
 }
 
+.entry-footer .cat-links {
+	padding-right: 1em;
+}
+
 .page .entry-footer {
 	border-bottom: 0;
 }
