@@ -1085,16 +1085,19 @@ a:active {
 	margin-top: 1em;
 }
 
-.comment-list .comment {
+.comment-list .comment,
+.comment-list .pingback {
 	border-top: 1px solid #eee;
 	padding: 1em;
 }
 
-.comment-list .comment.even {
+.comment-list .comment.even,
+.comment-list .pingback.even {
 	background: #f5f5f5;
 }
 
-.comment-list .comment.odd {
+.comment-list .comment.odd,
+.comment-list .pingback.odd {
 	background: #fbfbfb;
 }
 
@@ -1105,8 +1108,12 @@ a:active {
 	color: #aaa;
 }
 
-.comment .comment-metadata .edit-link {
+.comment .edit-link,
+.pingback .edit-link {
 	float: right;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-style: italic;
 }
 
 .comment .comment-meta .comment-author .avatar {
