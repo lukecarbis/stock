@@ -32,19 +32,19 @@ function stock_customize_register( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'stock_primary_feature_color', array(
-		'label'    => __( 'Primary Feature Color', 'mytheme' ),
+		'label'    => __( 'Primary Feature Color', 'stock' ),
 		'section'  => 'colors',
 		'settings' => 'stock_primary_feature_color',
 	) ) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'stock_secondary_feature_color', array(
-		'label'    => __( 'Secondary Feature Color', 'mytheme' ),
+		'label'    => __( 'Secondary Feature Color', 'stock' ),
 		'section'  => 'colors',
 		'settings' => 'stock_secondary_feature_color',
 	) ) );
 
 	$wp_customize->add_control( 'stock_footer_text', array(
-		'label'   => __( 'Footer Text' ),
+		'label'   => __( 'Footer Text', 'stock' ),
 		'section' => 'stock_footer_section',
 	) );
 
