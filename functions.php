@@ -107,8 +107,8 @@ function stock_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	$primary_color   = get_theme_mod( 'stock_primary_feature_color' );
-	$secondary_color = get_theme_mod( 'stock_secondary_feature_color' );
+	$primary_color   = get_theme_mod( 'stock_primary_feature_color', '#f5f5f5' );
+	$secondary_color = get_theme_mod( 'stock_secondary_feature_color', '#000' );
 
 	$custom_css = "
 	.entry-content a,

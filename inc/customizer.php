@@ -12,18 +12,21 @@
  */
 function stock_customize_register( $wp_customize ) {
 	$wp_customize->add_setting( 'stock_primary_feature_color' , array(
-		'default'   => '#f5f5f5',
-		'transport' => 'postMessage',
+		'default'            => '#f5f5f5',
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color'
 	) );
 
 	$wp_customize->add_setting( 'stock_secondary_feature_color' , array(
-		'default'   => '#000',
-		'transport' => 'postMessage',
+		'default'           => '#000',
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color'
 	) );
 
 	$wp_customize->add_setting( 'stock_footer_text' , array(
-		'default'   => sprintf( '<a href="%s">%s</a>', esc_url( 'http://wordpress.org/' ), __( 'Proudly powered by WordPress', 'stock' ) ),
-		'transport' => 'postMessage',
+		'default'           => sprintf( '<a href="%s">%s</a>', esc_url( 'http://wordpress.org/' ), __( 'Proudly powered by WordPress', 'stock' ) ),
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'wp_kses_post'
 	) );
 
 	$wp_customize->add_section( 'stock_footer_section' , array(
