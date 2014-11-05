@@ -14,18 +14,21 @@ function stock_customize_register( $wp_customize ) {
 	$default_colors  = stock_get_default_colors();
 
 	$wp_customize->add_setting( 'stock_primary_feature_color' , array(
-		'default'   => isset( $default_colors['primary'] ) ? $default_colors['primary'] : null,
-		'transport' => 'postMessage',
+		'default'           => isset( $default_colors['primary'] ) ? $default_colors['primary'] : null,
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color',
 	) );
 
 	$wp_customize->add_setting( 'stock_secondary_feature_color' , array(
-		'default'   => isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null,
-		'transport' => 'postMessage',
+		'default'           => isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null,
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color',
 	) );
 
 	$wp_customize->add_setting( 'stock_footer_text' , array(
-		'default'   => sprintf( '<a href="%s">%s</a>', esc_url( 'http://wordpress.org/' ), __( 'Proudly powered by WordPress', 'stock' ) ),
-		'transport' => 'postMessage',
+		'default'           => sprintf( '<a href="%s">%s</a>', esc_url( 'http://wordpress.org/' ), __( 'Proudly powered by WordPress', 'stock' ) ),
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'wp_kses_post',
 	) );
 
 	$wp_customize->add_section( 'stock_footer_section' , array(
