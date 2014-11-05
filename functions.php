@@ -74,6 +74,16 @@ endif; // stock_setup
 add_action( 'after_setup_theme', 'stock_setup' );
 
 /**
+ * Return default colors used by the theme.
+ */
+function stock_get_default_colors() {
+	return array(
+		'primary'   => '#000000',
+		'secondary' => '#f5f5f5',
+	);
+}
+
+/**
  * Register widget area.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
@@ -107,8 +117,9 @@ function stock_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	$primary_color   = get_theme_mod( 'stock_primary_feature_color', '#f5f5f5' );
-	$secondary_color = get_theme_mod( 'stock_secondary_feature_color', '#000' );
+	$default_colors  = stock_get_default_colors();
+	$primary_color   = get_theme_mod( 'stock_primary_feature_color', isset( $default_colors['primary'] ) ? $default_colors['primary'] : null );
+	$secondary_color = get_theme_mod( 'stock_secondary_feature_color', isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null );
 
 	$custom_css = "
 	.entry-content a,
@@ -124,7 +135,7 @@ function stock_scripts() {
 	a:active {
 		color: {$primary_color};
 	}
-	#masthead {
+	h2.site-description {
 		color: {$secondary_color};
 	}";
 
