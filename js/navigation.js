@@ -2,9 +2,10 @@
  * navigation.js
  *
  * Handles toggling the navigation menu for small screens.
+ * Also, shows the dropdown menu when a child element has focus
  */
 ( function() {
-	var container, button, menu;
+	var container, button, menu, links;
 
 	container = document.getElementById( 'site-navigation' );
 	if ( ! container )
@@ -31,4 +32,23 @@
 		else
 			container.className += ' toggled';
 	};
+
+	links = menu.querySelectorAll( '#site-navigation ul.sub-menu li a' );
+
+	for ( var i = 0; i < links.length; i++ ) {
+		links[ i ].onblur = function() {
+			var parentMenu = this.parentNode.parentNode;
+			while( parentMenu.getAttribute( 'id' ) !== 'site-navigation' ) {
+				parentMenu.className = parentMenu.className.replace( ' nav-focus', '' );
+				parentMenu = parentMenu.parentNode.parentNode;
+			}
+		}
+		links[ i ].onfocus = function() {
+			var parentMenu = this.parentNode.parentNode;
+			while( parentMenu.getAttribute( 'id' ) !== 'site-navigation' ) {
+				parentMenu.className += ' nav-focus';
+				parentMenu = parentMenu.parentNode.parentNode;
+			}
+		}
+	}
 } )();
