@@ -212,6 +212,7 @@ a img {
 	margin: 0 auto;
 	height: 12em;
 	width: 16em;
+	max-width: 100%;
 }
 
 .entry-header.has-thumbnail .entry-meta {
@@ -784,7 +785,7 @@ a:active {
 @media screen and (max-width: 960px) {
 	#primary {
 		margin-right: 35%;
-		min-width: 65%;
+		width: 65%;
 	}
 
 	#secondary {
