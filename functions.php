@@ -78,8 +78,13 @@ add_action( 'after_setup_theme', 'stock_setup' );
  */
 function stock_get_default_colors() {
 	return array(
-		'primary'   => '#000000',
-		'secondary' => '#f5f5f5',
+		'primary'   			=> '#000000',
+		'secondary' 			=> '#f5f5f5',
+		'text' 					=> '#404040',
+		'input_background'		=> '#ffffff',
+		'input_text'			=> '#666666',
+		'input_focus'			=> '#222222',
+		'entry_title'			=> '#000000',
 	);
 }
 
@@ -117,9 +122,14 @@ function stock_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	$default_colors  = stock_get_default_colors();
-	$primary_color   = get_theme_mod( 'stock_primary_feature_color', isset( $default_colors['primary'] ) ? $default_colors['primary'] : null );
-	$secondary_color = get_theme_mod( 'stock_secondary_feature_color', isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null );
+	$default_colors  			= stock_get_default_colors();
+	$primary_color   			= get_theme_mod( 'stock_primary_feature_color', isset( $default_colors['primary'] ) ? $default_colors['primary'] : null );
+	$secondary_color 			= get_theme_mod( 'stock_secondary_feature_color', isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null );
+	$text_color 	 			= get_theme_mod( 'stock_text_color', isset( $default_colors['text'] ) ? $default_colors['text'] : null );
+	$input_background_color		= get_theme_mod( 'stock_input_background_color', isset( $default_colors['input_background'] ) ? $default_colors['input_background'] : null );
+	$input_text_color			= get_theme_mod( 'stock_input_text_color', isset( $default_colors['input_text'] ) ? $default_colors['input_text'] : null );
+	$input_focus_color			= get_theme_mod( 'stock_input_focus_color', isset( $default_colors['input_focus'] ) ? $default_colors['input_focus'] : null );
+	$entry_title				= get_theme_mod( 'stock_entry_title_color', isset( $default_colors['entry_title'] ) ? $default_colors['entry_title'] : null );
 
 	$custom_css = "
 	.entry-content a,
@@ -137,7 +147,41 @@ function stock_scripts() {
 	}
 	h2.site-description {
 		color: {$secondary_color};
-	}";
+	}
+	body,
+	button {
+		color: {$text_color}
+	}
+	input
+	input[type=\"text\"],
+	input[type=\"email\"],
+	input[type=\"url\"],
+	input[type=\"password\"],
+	input[type=\"search\"],
+	select,
+	textarea {
+		color: {$input_text_color}
+	}
+	input:focus,
+	input[type=\"text\"]:focus,
+	input[type=\"email\"]:focus,
+	input[type=\"url\"]:focus,
+	input[type=\"password\"]:focus,
+	input[type=\"search\"]:focus,
+	textarea:focus,
+	select:focus,
+	textarea:focus {
+		color: {$input_focus_color}
+	}
+	input,
+	select,
+	textarea {
+		background-color: {$input_background_color}
+	}
+	h1.entry-title a {
+		color: {$entry_title}
+	}
+	";
 
 	wp_add_inline_style( 'stock-style', $custom_css );
 }

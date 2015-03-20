@@ -32,6 +32,46 @@
 			} );
 		} );
 	} );
+	// Text color.
+	wp.customize( 'stock_text_color', function( value ) {
+		value.bind( function( to ) {
+			$( 'body, button, input, select, textarea' ).css( {
+				'color': to,
+			} );
+		} );
+	} );
+	// Entry color.
+	wp.customize( 'stock_entry_title_color', function( value ) {
+		value.bind( function( to ) {
+			$( 'h1.entry-title a' ).css( {
+				'color': to,
+			} );
+		} );
+	} );
+	// Input background color.
+	wp.customize( 'stock_input_background_color', function( value ) {
+		value.bind( function( to ) {
+			$( 'input, select, textarea' ).css( {
+				'background-color': to,
+			} );
+		} );
+	} );
+	// Input text color.
+	wp.customize( 'stock_input_text_color', function( value ) {
+		value.bind( function( to ) {
+			$( 'input, input[type=\"text\"], input[type=\"email\"],	input[type=\"url\"], input[type=\"password\"], input[type=\"search\"], select, textarea' ).css( {
+				'color': to,
+			} );
+		} );
+	} );
+	// Input focus text color.
+	wp.customize( 'stock_input_focus_color', function( value ) {
+		value.bind( function( to ) {
+			$( 'input:focus, input[type=\"text\"]:focus, input[type=\"email\"]:focus, input[type=\"url\"]:focus, input[type=\"password\"]:focus, input[type=\"search\"]:focus, select:focus, textarea:focus ' ).css( {
+				'color': to,
+			} );
+		} );
+	} );
 	// Footer text.
 	wp.customize( 'stock_footer_text', function( value ) {
 		value.bind( function( to ) {
