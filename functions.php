@@ -122,14 +122,14 @@ function stock_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	$default_colors  			= stock_get_default_colors();
-	$primary_color   			= get_theme_mod( 'stock_primary_feature_color', isset( $default_colors['primary'] ) ? $default_colors['primary'] : null );
-	$secondary_color 			= get_theme_mod( 'stock_secondary_feature_color', isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null );
-	$text_color 	 			= get_theme_mod( 'stock_text_color', isset( $default_colors['text'] ) ? $default_colors['text'] : null );
-	$input_background_color		= get_theme_mod( 'stock_input_background_color', isset( $default_colors['input_background'] ) ? $default_colors['input_background'] : null );
-	$input_text_color			= get_theme_mod( 'stock_input_text_color', isset( $default_colors['input_text'] ) ? $default_colors['input_text'] : null );
-	$input_focus_color			= get_theme_mod( 'stock_input_focus_color', isset( $default_colors['input_focus'] ) ? $default_colors['input_focus'] : null );
-	$entry_title				= get_theme_mod( 'stock_entry_title_color', isset( $default_colors['entry_title'] ) ? $default_colors['entry_title'] : null );
+	$default_colors         = stock_get_default_colors();
+	$primary_color          = get_theme_mod( 'stock_primary_feature_color', isset( $default_colors['primary'] ) ? $default_colors['primary'] : null );
+	$secondary_color        = get_theme_mod( 'stock_secondary_feature_color', isset( $default_colors['secondary'] ) ? $default_colors['secondary'] : null );
+	$text_color             = get_theme_mod( 'stock_text_color', isset( $default_colors['text'] ) ? $default_colors['text'] : null );
+	$input_background_color = get_theme_mod( 'stock_input_background_color', isset( $default_colors['input_background'] ) ? $default_colors['input_background'] : null );
+	$input_text_color       = get_theme_mod( 'stock_input_text_color', isset( $default_colors['input_text'] ) ? $default_colors['input_text'] : null );
+	$input_focus_color      = get_theme_mod( 'stock_input_focus_color', isset( $default_colors['input_focus'] ) ? $default_colors['input_focus'] : null );
+	$entry_title            = get_theme_mod( 'stock_entry_title_color', isset( $default_colors['entry_title'] ) ? $default_colors['entry_title'] : null );
 
 	$custom_css = "
 	.entry-content a,
@@ -150,7 +150,7 @@ function stock_scripts() {
 	}
 	body,
 	button {
-		color: {$text_color}
+		color: {$text_color};
 	}
 	input
 	input[type=\"text\"],
@@ -160,7 +160,7 @@ function stock_scripts() {
 	input[type=\"search\"],
 	select,
 	textarea {
-		color: {$input_text_color}
+		color: {$input_text_color};
 	}
 	input:focus,
 	input[type=\"text\"]:focus,
@@ -171,15 +171,15 @@ function stock_scripts() {
 	textarea:focus,
 	select:focus,
 	textarea:focus {
-		color: {$input_focus_color}
+		color: {$input_focus_color};
 	}
 	input,
 	select,
 	textarea {
-		background-color: {$input_background_color}
+		background-color: {$input_background_color};
 	}
 	h1.entry-title a {
-		color: {$entry_title}
+		color: {$entry_title};
 	}
 	";
 
