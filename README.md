@@ -20,4 +20,4 @@ If you find something you don't like, or could be improved, feel free to contrib
 
 The image used in the screenshot is:
 [Water and Sky by Ross Pollack](https://www.flickr.com/photos/rossap/8256377839/)
-[(license)](https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode "Attribution-NonCommercial-ShareAlike 2.0 Generic")
+([license](https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode "Attribution-NonCommercial-ShareAlike 2.0 Generic"))
