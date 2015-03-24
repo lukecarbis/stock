@@ -78,13 +78,13 @@ add_action( 'after_setup_theme', 'stock_setup' );
  */
 function stock_get_default_colors() {
 	return array(
-		'primary'   			=> '#000000',
-		'secondary' 			=> '#f5f5f5',
-		'text' 					=> '#404040',
-		'input_background'		=> '#ffffff',
-		'input_text'			=> '#666666',
-		'input_focus'			=> '#222222',
-		'entry_title'			=> '#000000',
+		'primary'          => '#000000',
+		'secondary'        => '#f5f5f5',
+		'text'             => '#404040',
+		'input_background' => '#ffffff',
+		'input_text'       => '#666666',
+		'input_focus'      => '#222222',
+		'entry_title'      => '#000000',
 	);
 }
 
