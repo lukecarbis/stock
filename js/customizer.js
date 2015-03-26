@@ -66,9 +66,17 @@
 	} );
 	// Input focus text color.
 	wp.customize( 'stock_input_focus_color', function( value ) {
+		var inputs = $( 'input, input[type=\"text\"], input[type=\"email\"], input[type=\"url\"], input[type=\"password\"], input[type=\"search\"], select, textarea' );
 		value.bind( function( to ) {
-			$( 'input:focus, input[type=\"text\"]:focus, input[type=\"email\"]:focus, input[type=\"url\"]:focus, input[type=\"password\"]:focus, input[type=\"search\"]:focus, select:focus, textarea:focus ' ).css( {
-				'color': to,
+			inputs.off( 'focus' ).on( 'focus', function() {
+				$( this ).css( {
+					'color': to,
+				} );
+			} );
+			inputs.off( 'blur' ).on( 'blur', function() {
+				$( this ).css( {
+					'color': '',
+				} );
 			} );
 		} );
 	} );
