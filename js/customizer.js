@@ -68,14 +68,16 @@
 	wp.customize( 'stock_input_focus_color', function( value ) {
 		var inputs = $( 'input, input[type=\"text\"], input[type=\"email\"], input[type=\"url\"], input[type=\"password\"], input[type=\"search\"], select, textarea' );
 		value.bind( function( to ) {
+			var from = '';
 			inputs.off( 'focus' ).on( 'focus', function() {
+				from = $( this ).css( 'color' );
 				$( this ).css( {
-					'color': to,
+					'color': to
 				} );
 			} );
 			inputs.off( 'blur' ).on( 'blur', function() {
 				$( this ).css( {
-					'color': '',
+					'color': from
 				} );
 			} );
 		} );
