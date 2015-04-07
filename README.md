@@ -19,5 +19,5 @@ Here are some interesting things you'll find here:
 If you find something you don't like, or could be improved, feel free to contribute!
 
 The image used in the screenshot is:
-[Water and Sky by Ross Pollack](https://www.flickr.com/photos/rossap/8256377839/)
-([license](https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode "Attribution-NonCommercial-ShareAlike 2.0 Generic"))
+[Marble by Luke Carbis](https://luketakesphotos.wordpress.com/2014/10/06/marble/)
+This image was taken by the theme author (and is therefore used with full permission). It was taken at a marble mine in Carrara, Italy, on a Konica C35 using Ilford PAN 100 B&W 35mm film.
